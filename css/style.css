@@ -75,7 +75,7 @@ body {
 /*header section*/
 .hero_area {
   height: 98vh;
-  background-image: url("../images/fondo bl@3x.png");
+  background-image: url("../images/fondo sn@3x.png");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -220,12 +220,15 @@ a:focus {
 .hero_section .hero_btn-box a {
   display: inline-block;
   padding: 12px 55px;
-  background-color: transparent;
+  background-color: white;
   border: 1.5px solid #190B0C;
   color: #190B0C;
   margin-top: 55px;
   text-transform: uppercase;
+	opacity: 50%;
 }
+
+#rotativa{backface-visibility: visible;}
 
 .hero_section .hero_btn-box a:hover {
   background-color: #000000;
